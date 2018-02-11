@@ -1,0 +1,40 @@
+Here’s some tips:
+
+1) Save all of your shot types as constants, either in a object or in a bunch of variables at the top of the page
+	- var shotTypeDraw = ‘draw’
+	- var shotTypeFade = ‘fade’
+
+or
+
+	var shotTypes = {
+		draw = ‘draw’,
+		fade = ‘fade’
+	}
+
+2) Try to stay away from using strings in your code. It’s much better to save them to variables (constants) and then pass the variables around. Then you don’t have to worry about misspelling and if you want to change one of them, you only need to change it in one place.
+
+3) You only need one changeShotType function, just pass in one of the above constants to tell it which shot it was.
+
+4) Download the spell check package and make sure you never have misspelled words in your code.
+	- code spell checker package / extension.
+
+5) Don’t use /br in your HTML to make space at the top of your containers. Either use margin or padding. 
+
+6) Don’t name a function <name>2 e.g, changeShotTypeDraw2. Use a better name.
+
+7) In your HTML / javascript, don’t have more than one space between code lines. 
+
+For Styling:
+- Don’t use ID’s on HTML elements. If you’re styling a bunch of elements, and they’re all going to look the same, use classes. You’ll end up writing a lot less CSS.
+
+- Always wrap your similar elements in a div. It makes it a lot easier to control child elements when they’re wrapped in a div (outer parent container).
+
+To get your two button containers next to each other:
+- Wrap your two button containers in a a div.
+- Give both of your button containers a display: inline. This means the the button container will only take up as much space as it needs.
+- Add float: left on the left button container.
+- Try adding max and min widths to your button containers to control their size. 
+
+- Add min-width: 200px to your buttons. And watch what happens to them. If you choose a width long enough so that your longest word has enough room, all the other buttons will then be the same length an look a lot better.
+
+Really cool what guys are trying to build and it’s a great start. Definitely excited to see where you go with it!
