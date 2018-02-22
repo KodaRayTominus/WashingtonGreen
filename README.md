@@ -22,7 +22,27 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+//COMMENTS
+function displayCurrentHole() {
+    document.getElementById("currentHole").innerHTML = numHole;
+}
+
+//COMMENTS
+function getElementByID(element) {
+    document.getElementById(element);
+}
+
+//New hole counter function
+function newHole() {
+    projectedShots();
+    actualShotsFunction();
+    numHole +=1; 
+    if (numHole >= 19) {
+        alert(projected);
+        alert(actualShots);
+    }   
+    displayCurrentHole();  
+}
 ```
 
 ### Installing
