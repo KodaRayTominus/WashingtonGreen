@@ -1,25 +1,16 @@
-# WashingtonGreen
+# Washington Green
+
 Golf and Disc golf web application. (score keeping, maps, schedules, events)
-
-Placeholder:
-  
-  Add Goals Here
-  Pseudocode
-  
-  Add Goals Here
-  Pseudocode
-
-# Project Title
-
-One Paragraph of project description goes here
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+Naming Conventions: 
 
-What things you need to install the software and how to install them
+  lowerCamelCase = (i.e. "numHole" + "realShotType" + "displayCurrentHole")
+
+Java Coding Style:
 
 ```
 //COMMENTS
@@ -103,9 +94,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Casey Gruse** - *Initial work* - [caseygruse](https://github.com/caseygruse)
+* **Koda Tominus** - *Initial work* - [KodaRayTominus](https://github.com/KodaRayTominus)
+* **Anthony McCann** - *Initial work* - [AnMcCbusiness](https://github.com/AnMcCbusiness)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/KodaRayTominus/WashingtonGreen/graphs/contributors) who participated in this project.
 
 ## License
 
