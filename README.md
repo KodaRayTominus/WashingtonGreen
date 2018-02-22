@@ -36,20 +36,28 @@ function newHole() {
 }
 ```
 
-### Installing
+### Goals
 
 A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
+Frontend:
 
 ```
-Give the example
+1) Webpage
+
+2) Canvas
+
+3) Logo
+
+4) Name
 ```
 
-And repeat
+Backend:
 
 ```
-until finished
+1) Server
+
+2) Database
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
